@@ -4,6 +4,24 @@
 .header-container {
   display: flex;
 }
+.header-nav {
+  display: flex;
+}
+@media screen and (max-width: 375px) {
+  .header-nav {
+    display: none;
+  }
+}
+.header-menu {
+  display: flex;
+}
+.header-menu-open-btn {
+  border: none;
+  padding: 0;
+  display: flex;
+  line-height: 0;
+  height: 24px;
+}
 .hr-menu-open-icon {
   width: 36px;
   height: 24px;
