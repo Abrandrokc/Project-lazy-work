@@ -1,0 +1,10 @@
+.page-header {
+  background-color: #1c2225;
+}
+.header-container {
+  display: flex;
+}
+.hr-menu-open-icon {
+  width: 36px;
+  height: 24px;
+}
