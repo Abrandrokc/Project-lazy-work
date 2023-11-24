@@ -1,5 +1,6 @@
 .page-header {
   background-color: #1c2225;
+  height: auto;
 }
 .header-container {
   display: flex;
@@ -11,6 +12,10 @@
   .header-nav {
     display: none;
   }
+}
+.hesder-social-list {
+  display: flex;
+  column-gap: 12px;
 }
 .header-menu {
   display: flex;
