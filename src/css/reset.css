@@ -28,22 +28,22 @@ img {
   max-width: 100%;
   height: auto;
 }
-.conteiner {
+.body {
   background-color: #1c221c;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 @media screen and (min-width: 375px) {
-  .conteiner {
+  .container {
     max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     max-width: 768px;
   }
   .section {
@@ -54,7 +54,7 @@ img {
   }
 }
 @media screen and (min-width: 1280px) {
-  .conteiner {
+  .container {
     max-width: 1280px;
   }
   .section {
