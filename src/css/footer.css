@@ -70,3 +70,27 @@ background-size: contain;}
                     background-image: url(../img/compuctor-footer-background.png);
                }
 }
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+screen and (min-resolution: 2dppx) and (min-width: 320px),
+screen and (min-devise-pixel-ratio: 2) and (min-width: 320px) {
+    .hero-section {
+        background-image: url(../img/mobile-footer-background@2x.png);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px),
+screen and (min-devise-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px) {
+    .hero-section {
+        background-image:  url(../img/planshet-footer-background@2x.png);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-devise-pixel-ratio: 2) and (min-width: 1158px) {
+    .hero-section {
+        background-image:  url(../img/compuctor-footer-background@2x.png);
+    }
+
+}
