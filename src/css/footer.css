@@ -1,0 +1,35 @@
+
+.footer-link{
+    display: flex;
+    gap:40px;
+    padding-top: 40px;
+   padding-bottom: 20px;
+}
+.footer-link-list{
+    display: flex;
+    gap:25px;
+    flex-direction: column;
+}
+.footer-link-arch{
+    color: var(--white, #FCF9F9);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28px;
+        text-transform: uppercase;
+}
+.footer-text {
+    color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.22;
+        letter-spacing: -1.32px;
+        padding-bottom: 80px;
+        padding-top: 20px;
+       
+}
+.ukrainian{
+    color:#ECD979;
+}
