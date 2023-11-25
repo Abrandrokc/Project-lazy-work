@@ -1,6 +1,4 @@
-.our-collection {
-    
-}
+
 .our-collection-bigtext {
     color: var(--white, #FCF9F9);
     font-size: 32px;
@@ -78,7 +76,3 @@
     }
 }
 /*********@media screen and (min-width: 1280px)*****/
-@media screen and (min-width: 1280px) {
-    .container {
-    }
-}
