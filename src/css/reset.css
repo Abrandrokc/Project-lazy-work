@@ -31,3 +31,40 @@ img {
   max-width: 100%;
   height: auto;
 }
+.conteiner {
+  background-color: #1c221c;
+
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+    padding-left: 20px;
+      padding-right: 20px;
+}
+@media screen and (min-width: 375px) {
+  .conteiner {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    max-width: 768px;
+  }
+    .section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .conteiner {
+    max-width: 1280px;
+  }
+    .section {
+      padding-top: 75px;
+      padding-bottom: 75px;
+      padding-left: 100px;
+        padding-right: 100px;
+    }
+}
