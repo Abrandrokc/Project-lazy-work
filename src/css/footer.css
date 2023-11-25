@@ -1,6 +1,8 @@
 .footer {
     border-top: 1px solid rgba(252, 249, 249, 0.10);
+  
 }
+
 .footer-link{
     display: flex;
     gap:40px;
@@ -30,8 +32,13 @@
         letter-spacing: -1.32px;
         padding-bottom: 80px;
         padding-top: 20px;
-      
+   
 }
 .ukrainian{
     color:#ECD979;
+}
+.background-img{
+    background-image: url(../img/mobile-footer-background.png);
+    width:100%;
+    height: 215px;
 }
