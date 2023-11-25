@@ -33,10 +33,13 @@ img {
 }
 .conteiner {
   background-color: #1c221c;
+
 }
 .section{
   padding-top: 40px;
   padding-bottom: 40px;
+    padding-left: 20px;
+      padding-right: 20px;
 }
 @media screen and (min-width: 375px) {
   .conteiner {
@@ -50,6 +53,8 @@ img {
     .section {
       padding-top: 50px;
       padding-bottom: 50px;
+      padding-left: 32px;
+        padding-right: 32px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -59,5 +64,7 @@ img {
     .section {
       padding-top: 75px;
       padding-bottom: 75px;
+      padding-left: 100px;
+        padding-right: 100px;
     }
 }
