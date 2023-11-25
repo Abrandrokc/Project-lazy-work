@@ -3,23 +3,12 @@
   height: auto;
 }
 .header-container {
-  /* delete then ---------------------------------------------- */
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 1280px) {
-  .header-container {
-    padding-top: 22px;
-    padding-bottom: 26px;
-  }
-}
-.header-nav {
-  display: flex;
-}
+
 .header-logo-link {
   display: block;
   line-height: 0;
@@ -34,8 +23,57 @@
   column-gap: 12px;
   margin-left: auto;
 }
-.header-menu {
-  display: flex;
+@media screen and (min-width: 1280px) {
+  .header-container {
+    padding-top: 22px;
+    padding-bottom: 27px;
+  }
+  .header-menu {
+    display: flex;
+    column-gap: 25px;
+  }
+  .hr-menu-item-link {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    transition: color 250ms linear;
+  }
+  .hr-menu-item-link:hover,
+  .hr-menu-item-link:focus {
+    color: #ecd979;
+  }
+  .heder-address-link {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.43;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    width: 193px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 250ms linear;
+  }
+  .heder-address-link:hover,
+  .heder-address-link:focus {
+    border-color: #ecd979;
+    outline: transparent;
+  }
+  .header-nav {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+    margin-right: auto;
+  }
+  .hesder-social-list {
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 1279px) {
   .header-menu {
@@ -51,7 +89,6 @@
   padding: 0;
   display: flex;
   line-height: 0;
-  height: 24px;
   background-color: transparent;
   margin-left: 12px;
 }
@@ -70,6 +107,7 @@
 .hr-social-list-link:hover,
 .hr-social-list-link:focus {
   border: 1px solid #ecd979;
+  outline: transparent;
 }
 .hr-social-list-icon use {
   fill: #fcf9f9;
@@ -84,5 +122,13 @@
   }
   .header-container {
     padding-bottom: 34px;
+  }
+  .header-menu-open-btn {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-menu-open-btn {
+    display: none;
   }
 }
