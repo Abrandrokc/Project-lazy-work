@@ -2,7 +2,10 @@
     border-top: 1px solid rgba(252, 249, 249, 0.10);
   
 }
-
+.backround {
+    background-image: url(../img/mobile-footer-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;}
 .footer-link{
     display: flex;
     gap:40px;
@@ -30,28 +33,14 @@
         font-weight: 400;
         line-height: 1.22;
         letter-spacing: -1.32px;
-        padding-bottom: 80px;
+        padding-bottom: 280px;
         padding-top: 20px;
    
 }
 .ukrainian{
     color:#ECD979;
 }
-.nine{
-    position: relative;
-    padding-bottom: 260px;
-}
-.background-img{
-    background-image: url(../img/mobile-footer-background.png);
-    display: flex;
-        width: 452px;
-        height: 401px;
-        padding-right: 0px;
-        justify-content: center;
-        align-items: center;
-    position: absolute;
-      transform: translateX(-10%);
-}
+
 @media screen  and (min-width:768px) {
     .footer-link-list{
         flex-direction: row;
@@ -59,10 +48,6 @@
         .footer-link{
             gap:25px;
         }
-                .nine{
-                    position: relative;
-                }
-                                .background-img{
-                                    
-                                }
+                
+                               
 }
