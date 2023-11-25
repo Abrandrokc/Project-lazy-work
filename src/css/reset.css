@@ -35,7 +35,7 @@ img {
   background-color: #1c221c;
   font-family:"Manrope";
 }
-.conteiner {
+.container {
  
 padding-left: 20px;
   padding-right: 20px;
@@ -48,12 +48,12 @@ padding-left: 20px;
    
 }
 @media screen and (min-width: 375px) {
-  .conteiner {
+  .container {
     max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     max-width: 768px;
         padding-left: 32px;
           padding-right: 32px;
@@ -65,7 +65,7 @@ padding-left: 20px;
     }
 }
 @media screen and (min-width: 1280px) {
-  .conteiner {
+  .container {
     max-width: 1280px;
     padding-left: 100px;
       padding-right: 100px;
