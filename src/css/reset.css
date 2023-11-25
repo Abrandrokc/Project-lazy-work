@@ -31,8 +31,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-.conteiner {
+.body{
   background-color: #1c221c;
+}
+.conteiner {
+ 
 padding-left: 20px;
   padding-right: 20px;
     margin-left: auto;
