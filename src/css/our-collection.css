@@ -5,14 +5,12 @@
     background-repeat: no-repeat;
     background-position: top 308px left 0;
 }
-
 @media (min-resolution: 192dpi) {
     .our-collection-container {
         background-image: url(../img/mobile-our-collection-backround@2x.png);
         background-size: 72px;
     }
 }
-
 .our-collection-bigtext {
     color: var(--white, #FCF9F9);
     font-size: 32px;
@@ -40,7 +38,6 @@
     border-radius: 4px;
     margin-bottom: 18px;
 }
-
 .vyshyvanka-name {
     color: var(--white, #FCF9F9);
     font-size: 14px;
@@ -88,14 +85,12 @@
         line-height: 1.45;
         letter-spacing: -0.03em;
     }
-
     .our-collection-ul {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px 20px;
     }
-
     .vyshyvanka-name {
         color: var(--white, #FCF9F9);
         font-size: 18px;
@@ -123,23 +118,15 @@
     .our-collection-ul {
         gap: 40px 20px;
     }
-
     .our-collection-li-img {
         width: 346px;
         height: 430px;
     }
-
     .our-collection-container {
         padding-top: 35px;
         background-image: url(../img/compuctor-our-collection-background.png);
         background-position: top 256px left 0;
 
     }
-
-    @media (min-resolution: 192dpi) {
-        .our-collection-container {
-            background-image: url(../img/compuctor-our-collection-background@2x.png);
-            background-size: 168px;
-        }
-    }
+    
 }
