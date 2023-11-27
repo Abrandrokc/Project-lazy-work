@@ -14,36 +14,34 @@
 .testimonials-list {
     list-style: none;
 }
-
+.display, .display-2{
+    display: none;
+}
 @media screen and (min-width: 768px) {
     .testimonials-list {
         width: 100%;
         display: flex;
         gap: 32px;
     }
+        .display{
+            display: block;
+        }
+                
 }
 
 @media screen and (min-width: 1280px) {
-    .testimonials-list {
-        gap: 26px;
-    }
+.display-2{display: block;}
+
 }
 
-.test-list li:nth-child(2),
-.test-list li:nth-child(3) {
-    display: none;
-}
+
 
 @media screen and (min-width: 768px) {
-    .test-list li:nth-child(2) {
-        display: block;
-    }
+   
 }
 
 @media screen and (min-width: 1280px) {
-    .test-list li:nth-child(3) {
-        display: block;
-    }
+   
 }
 
 .testimonials-card {
@@ -78,6 +76,8 @@
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 8px;
+    margin-top: 20px;
+    color: white;
 }
 
 .testimonials-description {
@@ -86,7 +86,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: #FCF9F9;
+    color: #FCF9F966;
 }
 
 @media screen and (min-width: 768px) {
