@@ -1,0 +1,133 @@
+
+.modal {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 584px;
+  background: #1C2225;
+  padding: 40px 20px 40px;
+}
+
+.container {
+display: flex;
+width: 375px; 
+padding: 0px 20px 1px 20px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.review-form-field-wrapper {
+padding: 14px 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: 8px;
+margin-bottom: 20px;
+background: #1C2225;
+color: #FCF9F980;
+transition: review-form-message 250ms linear;
+}
+
+.review-form-field {
+  width: 100%;
+  height: 47px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  outline: transparent;
+  font-family: Manrope;
+  letter-spacing: -0.02em;
+  color: #FCF9F9;
+  font-size: 16px;
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+ 
+}
+
+.review-form-field:hover,
+.review-form-field:focus {
+border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.review-form-message {
+  display: flex;
+  width: 100%;
+  height: 163px;
+  border-radius: 15px;
+  font-family: Manrope;
+  letter-spacing: -0.02em;
+  color: #FCF9F9;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #1C2225;
+  padding: 14px 16px;
+  gap: 8px;
+  align-self: stretch;
+  resize: none;
+  outline:transparent;
+}
+
+.review-form-message:hover,
+.review-form-message:focus {
+border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.review-form-field-comments {
+padding: 14px 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: 8px;
+}
+
+.button-icon {
+display: flex;
+height: 49px;
+padding: 14px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+margin-left: 115px;
+margin-right: 115px;
+margin-top: 40px;
+transition: border-color 250ms linear;
+}
+
+.review-form-btn:hover,
+.review-form-btn:focus {
+border-color: #ECD979;
+}
+
+.review-form-btn {
+display: inline-flex;
+height: 49px;
+position: relative;
+width: 168px;
+padding: 14px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background: #1C2225;
+color: #FCF9F9;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+}
+
+.review-form-field-icon {
+fill:#ECD979;
+margin-right: 10px;
+}
+
+
+

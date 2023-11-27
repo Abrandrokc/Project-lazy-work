@@ -54,6 +54,7 @@
     letter-spacing: 0.05em;
 }
 
+
 /*********@media screen and (min-width: 768px)****/
 @media screen and (min-width: 768px) {
     .our-collection-container {
@@ -72,6 +73,14 @@
         width: 342px;
         height: 430px;
     }
+=======
+/*********@media screen and (min-width: 320px)****/
+
+
+/*********@media screen and (min-width: 768px)****/
+@media screen and (min-width: 768px) {
+    
+
     .our-collection-bigtext {
         color: var(--white, #FCF9F9);
         font-size: 44px;
