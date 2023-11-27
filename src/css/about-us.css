@@ -1,0 +1,93 @@
+.about-us-section {
+  background-color: #1c2225;
+}
+.about-us-container {
+  position: relative;
+}
+.about-us-title {
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.about-us-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+.about-us-text-second {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  letter-spacing: -0.04em;
+}
+.about-text-wraper {
+  margin-bottom: 50px;
+}
+.about-us-background-png {
+  position: absolute;
+  background-image: url(../img/mobile-about-us-backround.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 408px;
+  right: 0px;
+  bottom: -22px;
+}
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ration: 2) {
+  .about-us-background-png {
+    background-image: url(../img/mobile-about-us-backround@2x.png);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-us-background-png {
+    background-image: url(../img/planshet-about-us-background.png);
+    width: 369px;
+    height: 484px;
+    right: 0px;
+    bottom: 0px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .about-us-background-png {
+      background-image: url(../img/planshet-about-us-background@2x.png);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.46;
+  }
+  .about-us-text {
+    font-size: 16px;
+  }
+  .about-us-text-second {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+  }
+  .about-us-text {
+    max-width: 436px;
+  }
+  .about-us-text-second {
+    max-width: 436px;
+  }
+  .about-text-wraper {
+    margin-bottom: 0;
+  }
+  .about-us-text-second {
+    margin-bottom: 0;
+  }
+}
