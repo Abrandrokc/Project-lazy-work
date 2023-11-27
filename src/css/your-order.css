@@ -9,15 +9,7 @@ position: absolute;
   padding: 40px 20px 40px;
 }
 
-.container {
-display: flex;
-width: 375px; 
-padding: 0px 20px 1px 20px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 40px;
-}
+
 
 .review-form-field-wrapper {
 padding: 14px 16px;
