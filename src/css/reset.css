@@ -8,9 +8,6 @@ h6,
 p {
   margin: 0;
 }
-
-
-
 ul {
   margin: 0;
   padding: 0;
@@ -31,21 +28,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .body{
-  background-color: #1c221c;
+  background-color: #1c2225;
   font-family:"Manrope";
 }
 .container {
  
 padding-left: 20px;
+
   padding-right: 20px;
     margin-left: auto;
       margin-right: auto;
 }
-.section{
+.section {
   padding-top: 40px;
   padding-bottom: 40px;
-   
+
 }
 @media screen and (min-width: 375px) {
   .container {
@@ -55,24 +54,22 @@ padding-left: 20px;
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-        padding-left: 32px;
-          padding-right: 32px;
   }
-    .section {
-      padding-top: 50px;
-      padding-bottom: 50px;
-  
-    }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-left: 100px;
-      padding-right: 100px;
   }
-    .section {
-      padding-top: 75px;
-      padding-bottom: 75px;
-     
-    }
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
