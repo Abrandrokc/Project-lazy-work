@@ -17,7 +17,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/Project-lazy-work/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-lazy-work/assets/index-3d5b969b.css">
+    <link rel="stylesheet" href="/Project-lazy-work/assets/index-545c2529.css">
   </head>
   <body class="body">
     <header class="page-header">
@@ -293,48 +293,72 @@
   </div>
 </section>
 
-      <div class="container">
-<div class="modal">
-  <div class="review-form-field-wrapper">
-     <form class="review-form">
-    <input
-      type="full name"
-      class="review-form-field"
-      id="user-name"
-      placeholder="Enter your full name"
-    />
-    <label for="user-name"></label>
+      <section class="your-order">
+  <div class="order-background-img"></div>
+  <div class="container section order-container">
+    <div class="order-background-png"></div>
+    <div>
+      <h2 class="order-title">
+        <span class="order-title-span">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="order-form-container">
+        <label class="order-form-label" for="user-name">
+          <input
+            class="order-form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your full name"
+            pattern="[a-z,A-Z, ]+"
+            required
+        /></label>
+        <label class="order-form-label" for="user-phone">
+          <input
+            class="order-form-input"
+            placeholder="Enter your email"
+            type="email"
+            name="phone"
+            id="user-phone"
+            pattern=""
+            required
+        /></label>
+        <label class="order-form-textlabel" for="user-comment">
+          <textarea
+            class="order-form-text-comment"
+            name="user-comment"
+            rows="5"
+            placeholder="Comments"
+            id="user-comment"
+          ></textarea>
+        </label>
+        <button class="order-button" type="submit">
+          Send
+          <svg class="order-buton-svg" width="26" height="16">
+            <use href="/Project-lazy-work/assets/sprite-090f54d3.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <picture class="order-picture">
+      <source
+        media="(min-width: 1280px)"
+        srcset="/Project-lazy-work/assets/compuctor-your-order-vyshyvanka-641bb86d.jpg 1x, /Project-lazy-work/assets/compuctor-your-order-vyshyvanka@2x-d6c4672e.jpg 2x"
+        type="image/jpg"
+        width="524"
+        height="521"
+      />
+      <img
+        class="order-photo"
+        srcset="/Project-lazy-work/assets/planshet-your-order-vyshyvanka-53618228.jpg 1x, /Project-lazy-work/assets/planshet-your-order-vyshyvanka@2x-fac9c9a6.jpg 2x"
+        src="/Project-lazy-work/assets/planshet-your-order-vyshyvanka-53618228.jpg"
+        alt="traditional blouse"
+        width="638"
+        height="521"
+      />
+    </picture>
   </div>
-
-  <div class="review-form-field-wrapper">
-    <input
-      type="email"
-      class="review-form-field"
-      id="user-email"
-      placeholder="Enter your email"
-    />
-    <label for="user-email"></label>
-  </div>
-
-  <div class="review-form-field-comments">
-    <textarea
-      class="review-form-message"
-      placeholder="Comments"
-      id="user-comment"
-    ></textarea>
-    <label for="user-comment"></label>
-  </div>
-  <div class="button-icon">
-    <button class="review-form-btn" type="submit">
-      SEND
-      <svg class="review-form-field-icon" width="26" height="16">
-        <use href="/Project-lazy-work/assets/sprite-090f54d3.svg#icon-arrow"></use>
-      </svg>
-    </button>
-    </form>
-  </div>
-</div>
-</div>
+</section>
 
       <section class="testimonials section">
   <div class="testimonials container">
