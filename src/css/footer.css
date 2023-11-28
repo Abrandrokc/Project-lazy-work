@@ -6,7 +6,7 @@
     background-image: url(../img/mobile-footer-background.png);
     background-repeat: no-repeat;
     background-position: bottom;
-background-size: contain;}
+background-size:375px;}
 .footer-link{
     display: flex;
     gap:40px;
@@ -53,21 +53,25 @@ background-size: contain;}
                                 .backround{
                                     background-image: url(../img/planshet-footer-background.png);
                                     background-position: right;
+                                    background-size: contain;
                                 }
                                                                 .footer-text{
                                                                     padding-right: 220px;
                                                                     padding-bottom: 40px;
                                                                     padding-top: 40px;
+                                                                    width: 754px;
                                                                 }
                                
 }
 @media screen and (min-width:1268px){
     .footer-text{
         padding-top: 58px;
+        width: 754px;
     }
         .footer-link{padding-bottom: 58px;}
                 .backround {
                     background-image: url(../img/compuctor-footer-background.png);
+                    width: 1268px;
                }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
