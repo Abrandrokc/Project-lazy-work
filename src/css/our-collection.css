@@ -1,0 +1,147 @@
+.our-collection-container {
+    padding-top: 9px;
+    background-image: url(../img/mobile-our-collection-backround.png);
+    background-repeat: no-repeat;
+    background-position: top 308px left 0;
+}
+
+@media (min-resolution: 192dpi) {
+    .our-collection-container {
+        background-image: url(../img/mobile-our-collection-backround@2x.png);
+        background-size: 72px;
+    }
+}
+.our-collection-bigtext {
+    color: var(--white, #FCF9F9);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+        line-height: 1.37;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+        text-align: center;
+}
+
+.our-collection-ul {
+    color: var(--white, #FCF9F9);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+}
+.our-collection-li-img {
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.our-collection-li {
+    margin-bottom: 20px;
+}
+
+.our-collection-li-img {
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.vyshyvanka-name {
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.price-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+/*********@media screen and (min-width: 768px)****/
+@media screen and (min-width: 768px) {
+    .our-collection-container {
+        padding-top: 25px;
+        background-image: url(../img/planshet-our-collection-background.png);
+        background-position: top 246px left 0;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .our-collection-container {
+            background-image: url(../img/planshet-our-collection-background@2x.png);
+            background-size: 114px;
+        }
+    }
+
+    .our-collection-li-img {
+        width: 342px;
+        height: 430px;
+    }
+
+}
+/*********@media screen and (min-width: 320px)****/
+
+
+/*********@media screen and (min-width: 768px)****/
+@media screen and (min-width: 768px) {
+
+
+    .our-collection-bigtext {
+        color: var(--white, #FCF9F9);
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
+    }
+
+    .our-collection-ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px 20px;
+    }
+
+    .vyshyvanka-name {
+        color: var(--white, #FCF9F9);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 342px;
+        white-space: nowrap;
+    }
+
+    .price-text {
+        font-size: 18px;
+        
+    }
+}
+
+/*********@media screen and (min-width: 1280px)*****/
+@media screen and (min-width: 1280px) {
+    .our-collection-ul {
+        gap: 40px 20px;
+    }
+
+    .our-collection-li-img {
+        width: 346px;
+        height: 430px;
+    }
+
+    .our-collection-container {
+        padding-top: 35px;
+        background-image: url(../img/compuctor-our-collection-background.png);
+        background-position: top 256px left 0;
+
+    }
+
+    @media (min-resolution: 192dpi) {
+        .our-collection-container {
+            background-image: url(../img/compuctor-our-collection-background@2x.png);
+            background-size: 168px;
+        }
+    }
+}

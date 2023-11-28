@@ -1,3 +1,4 @@
+
 .your-order {
   background-color: #1c2225;
 }
@@ -41,6 +42,34 @@
   flex-direction: column;
 }
 .order-form-input {
+
+
+.modal {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 584px;
+  background: #1C2225;
+  padding: 40px 20px 40px;
+}
+
+
+
+.review-form-field-wrapper {
+padding: 14px 16px;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+border-radius: 8px;
+margin-bottom: 20px;
+background: #1C2225;
+color: #FCF9F980;
+transition: review-form-message 250ms linear;
+}
+
+.review-form-field {
+
   width: 100%;
   height: 47px;
   background-color: transparent;
