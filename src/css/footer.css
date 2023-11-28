@@ -36,7 +36,7 @@ background-size:375px;}
         letter-spacing: -1.32px;
         padding-bottom: 280px;
         padding-top: 20px;
-   
+width: 335px;
 }
 .ukrainian{
     color:#ECD979;
@@ -56,10 +56,22 @@ background-size:375px;}
                                     background-size: contain;
                                 }
                                                                 .footer-text{
-                                                                    padding-right: 220px;
+                                                                    
                                                                     padding-bottom: 40px;
                                                                     padding-top: 40px;
+
                                                                     width: 754px;
+
+                                                                    width: 521px;
+                                                                   
+                                                                     
+                                                                        font-size: 54px;
+                                                                       
+                                                                      
+                                                                        line-height: 1.18;
+                                                                    
+                                                                        letter-spacing: -1.62px;
+
                                                                 }
                                
 }
@@ -67,6 +79,18 @@ background-size:375px;}
     .footer-text{
         padding-top: 58px;
         width: 754px;
+
+=======
+    
+     
+        font-size: 64px;
+        
+        line-height: 1.15;
+        
+        letter-spacing: -1.92px;
+            
+           
+
     }
         .footer-link{padding-bottom: 58px;}
                 .backround {
