@@ -1,4 +1,49 @@
 
+.your-order {
+  background-color: #1c2225;
+}
+.order-container {
+  padding-top: 80px;
+  position: relative;
+}
+.your-order {
+  padding-top: 40px;
+}
+.order-background-img {
+  background-image: url(../img/mobile-your-order-girl.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ration: 2) {
+  .order-background-img {
+    background-image: url(../img/mobile-your-order-girl@2x.jpg);
+  }
+}
+.order-title {
+  max-width: 335px;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.order-title-span {
+  color: #ecd979;
+}
+.order-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.order-form-input {
+
+
 .modal {
 position: absolute;
   top: 50%;
@@ -24,102 +69,230 @@ transition: review-form-message 250ms linear;
 }
 
 .review-form-field {
+
   width: 100%;
   height: 47px;
   background-color: transparent;
   border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.10);
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding-left: 16px;
   outline: transparent;
   font-family: Manrope;
   letter-spacing: -0.02em;
-  color: #FCF9F9;
+  color: #fcf9f9;
   font-size: 16px;
-  display: flex;
-  padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
- 
+  transition: border 250ms linear;
 }
-
-.review-form-field:hover,
-.review-form-field:focus {
-border: 1px solid rgba(252, 249, 249, 0.60);
-}
-
-.review-form-message {
-  display: flex;
-  width: 100%;
-  height: 163px;
-  border-radius: 15px;
+.order-form-input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
   font-family: Manrope;
+  font-size: 14px;
   letter-spacing: -0.02em;
-  color: #FCF9F9;
-  font-size: 16px;
+}
+.order-form-label {
+  margin-bottom: 20px;
+}
+.order-form-text-comment {
+  width: 100%;
+  height: 196px;
+  background-color: transparent;
+  outline: transparent;
   border-radius: 8px;
-  background: #1C2225;
-  padding: 14px 16px;
-  gap: 8px;
-  align-self: stretch;
+  border: 1px solid rgba(252, 249, 249, 0.1);
   resize: none;
-  outline:transparent;
+  padding: 14px 16px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  transition: border 250ms linear;
 }
-
-.review-form-message:hover,
-.review-form-message:focus {
-border: 1px solid rgba(252, 249, 249, 0.60);
+.order-form-text-comment::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  letter-spacing: -0.02em;
 }
-
-.review-form-field-comments {
-padding: 14px 16px;
-align-items: flex-start;
-gap: 8px;
-align-self: stretch;
-border-radius: 8px;
+.order-form-text-comment:hover,
+.order-form-text-comment:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
 }
-
-.button-icon {
-display: flex;
-height: 49px;
-padding: 14px 36px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 15px;
-margin-left: 115px;
-margin-right: 115px;
-margin-top: 40px;
-transition: border-color 250ms linear;
+.order-form-textlabel {
+  margin-bottom: 40px;
+  line-height: 0;
 }
-
-.review-form-btn:hover,
-.review-form-btn:focus {
-border-color: #ECD979;
+.order-button {
+  width: 145px;
+  height: 49px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  transition: border 250ms linear;
 }
-
-.review-form-btn {
-display: inline-flex;
-height: 49px;
-position: relative;
-width: 168px;
-padding: 14px 36px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 15px;
-border: 1px solid rgba(252, 249, 249, 0.10);
-background: #1C2225;
-color: #FCF9F9;
-font-family: Manrope;
-font-size: 16px;
-font-weight: 600;
-letter-spacing: -0.04em;
-text-transform: uppercase;
+.order-button:hover,
+.order-button:focus {
+  border: 1px solid #ecd979;
 }
-
-.review-form-field-icon {
-fill:#ECD979;
-margin-right: 10px;
+.order-buton-svg {
+  fill: #ecd979;
 }
-
-
-
+.order-buton-svg use {
+  display: inline-block;
+}
+.order-photo {
+  margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .order-photo {
+    display: none;
+  }
+}
+.order-form-input:hover,
+.order-form-input:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+@media screen and (min-width: 768px) {
+  .your-order {
+    position: relative;
+  }
+  .order-background-png {
+    width: 322px;
+    height: 484px;
+    position: absolute;
+    background-image: url(../img/planshet-your-order-background.png);
+    left: 0;
+    bottom: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .order-background-png {
+      background-image: url(../img/planshet-your-order-background@2x.png);
+    }
+  }
+  .order-form-input {
+    font-size: 16px;
+    height: 50px;
+  }
+  .order-form-text-comment {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .order-container {
+    padding-top: 100px;
+  }
+  .your-order {
+    padding-top: 50px;
+  }
+  .order-title {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+  .order-form-container {
+    max-width: 508px;
+    margin-bottom: 100px;
+  }
+  .order-form-input {
+    height: 50px;
+  }
+  .order-button {
+    width: 168px;
+    height: 50px;
+    margin: 0;
+    font-size: 16px;
+  }
+  .order-container {
+    padding-bottom: 129px;
+  }
+  .order-background-img {
+    background-image: url(../img/planshet-your-order-girl.jpg);
+    height: 776px;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .order-background-img {
+      background-image: url(../img/planshet-your-order-girl@2x.jpg);
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .your-order {
+    padding-top: 75px;
+  }
+  .order-container {
+    padding-top: 150px;
+    padding-left: 0;
+  }
+  .order-container {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 50px;
+  }
+  .order-background-img {
+    background-image: url(../img/compuctor-your-order-girl.jpg);
+    height: 776px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .order-background-img {
+      background-image: url(../img/compuctor-your-order-girl@2x.jpg);
+    }
+  }
+  .order-picture {
+    display: block;
+    height: 521px;
+  }
+  .order-title {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+  }
+  .order-form-container {
+    max-width: 508px;
+  }
+  .order-button {
+    margin: 0;
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .order-background-png {
+    width: 545px;
+    height: 484px;
+    bottom: 75px;
+    left: 0;
+    background-image: url(../img/compuctor-your-order-background.jpg);
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .order-background-png {
+      background-image: url(../img/compuctor-your-order-background@2x.jpg);
+    }
+  }
+}
