@@ -1,0 +1,117 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 274px;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 99399999999999999999;
+    background-color: #ecd979;
+    visibility: hidden;
+    transform: translate(-50%, -100%);
+    transition: transform 250ms linear;
+  }
+  .mobile-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mobile-close-button {
+    border: none;
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+  }
+  .mobile-close-icon {
+    stroke: #1c2225;
+  }
+  .mobile-phone-link {
+    color: #1c2225;
+    font-family: Manrope;
+    font-size: 12px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.1);
+    width: 158px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 186px;
+  }
+  .mobile-list-link {
+    color: #1c2225;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    text-align: end;
+    display: block;
+  }
+  .mobile-list {
+    margin-left: auto;
+    width: 124px;
+  }
+  .mobile-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .mobile-backgraound-png {
+    background-image: url(../img/menu-background.png);
+    position: absolute;
+    width: 274px;
+    height: 251px;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+    .mobile-backgraound-png {
+      background-image: url(../img/menu-background@2x.png);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .mobile-menu {
+      width: 380px;
+    }
+    .mobile-container {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .mobile-phone-link {
+      width: 193px;
+      height: 48px;
+      font-size: 14px;
+      line-height: 1.43;
+      margin-bottom: 223px;
+    }
+    .mobile-close-icon {
+      width: 44px;
+      height: 44px;
+    }
+    .mobile-list-item:not(:last-child) {
+      margin-bottom: 25px;
+    }
+    .mobile-backgraound-png {
+      background-image: url(../img/planshet-menu-background.png);
+      width: 380px;
+      height: 364px;
+      background-size: cover;
+    }
+    @media screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx),
+      screen and (min-device-pixel-ration: 2) {
+      .mobile-backgraound-png {
+        background-image: url(../img/planshet-menu-background@2x.png);
+      }
+    }
+  }
+  .is-open {
+    visibility: visible;
+    transform: translate(-50%, 0);
+  }
