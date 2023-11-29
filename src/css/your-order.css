@@ -58,6 +58,7 @@ border-radius: 15px;
     padding: 14px 16px;
     align-items: flex-start;
     gap: 8px;
+    color:#FCF9F980;
   }
 
   .review-form-field-wrapper {
