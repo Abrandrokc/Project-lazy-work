@@ -4,9 +4,9 @@
   font-weight: 400;
   line-height: 1.22;
   letter-spacing: -0.03em;
-  margin-top: 60px;
+  
   margin-bottom: 20px;
-  width: 335px;
+ 
 }
 .hero-span {
   color: #ecd979;
@@ -50,6 +50,7 @@
     line-height: 1.18;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
+    margin-top: 60px;
   }
   .hero-btn {
     display: flex;
