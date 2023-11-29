@@ -82,11 +82,12 @@
 
 .testimonials-description {
     width: 291px;
+    
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: #FCF9F966;
+    color: rgba(252, 249, 249, 0.40);;
 }
 
 @media screen and (min-width: 768px) {
