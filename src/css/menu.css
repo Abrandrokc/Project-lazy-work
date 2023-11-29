@@ -78,7 +78,7 @@
   @media screen and (min-width: 768px) {
     .mobile-menu {
       width: 380px;
-      left: 75%;
+     
     }
     .mobile-container {
       padding-left: 32px;
@@ -114,5 +114,5 @@
   }
   .is-open {
     visibility: visible;
-    transform: translate(-50%, 0);
+    transform: translate( 0);
   }
